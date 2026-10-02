@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acara 2 | Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow bg-dark fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Brebes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi">
+                                <i class="bi bi-journal-text"></i> Deskripsi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#penduduk">
+                                <i class="bi bi-people-fill"></i> Penduduk
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kecamatan">
+                                <i class="bi bi-building-fill"></i> Kecamatan
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#website">
+                                <i class="bi bi-link-45deg"></i> Website
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gambar">
+                                <i class="bi bi-image"></i> Gambar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#infoModal">
+                                <i class="bi bi-info-circle-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Title -->
+        <div class="alert alert-success shadow text-center" role="alert">
+            <h1>Jawa Tengah</h1>
+            <h3>Brebes</h3>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="card shadow" id="deskripsi">
+            <div class="card-header">
+                <h6><i class="bi bi-journal-text"></i> Deskripsi</h6>
+            </div>
+            <div class="card-body">
+                <p>Kabupaten Brebes (bahasa Jawa: Hanacaraka: ꦧꦿꦼꦧꦼꦱ꧀, bahasa Sunda: ᮘᮢᮨᮘᮨᮞ᮪, Pegon: برۤبۤس) adalah
+                    sebuah
+                    wilayah kabupaten yang berada di Provinsi Jawa Tengah, Indonesia. Ibu kotanya adalah Kecamatan
+                    Brebes.
+                    Kabupaten ini dilewati Jalan Pantura yang menghubungkan Jakarta - Semarang - Tuban - Surabaya. Luas
+                    wilayahnya 1.769,62 km², jumlah penduduknya berdasarkan hasil Sensus Penduduk Indonesia 2020
+                    berjumlah
+                    1.978.759 jiwa, dan pada pertengahan 2024 sebanyak 2.059.458 jiwa.[1][2] Brebes merupakan kabupaten
+                    dengan
+                    jumlah penduduk paling banyak di Jawa Tengah, dan paling luas di Jawa Tengah ke-2 setelah Kabupaten
+                    Cilacap.
+                </p>
+            </div>
+        </div>
+
+        <!-- Penduduk -->
+        <div class="card shadow mt-3" id="penduduk">
+            <div class="card-header">
+                <h6><i class="bi bi-people-fill"></i></i> Penduduk</h6>
+            </div>
+            <table class="table table-striped">
+                <tr>
+                    <th>No</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jumlah</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Laki - laki</td>
+                    <td>1.058.077 jiwa</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Perempuan</td>
+                    <td>1.028.983 jiwa</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Total</td>
+                    <td>2.087.060 jiwa</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Kecamatan -->
+        <div class="card shadow mt-3" id="Kecamatan">
+            <div class="card-header">
+                <h6><i class="bi bi-building-fill"></i></i> Kecamatan</h6>
+            </div>
+            <ol>
+                <li>Banjarharjo</li>
+                <li>Bantarkawung</li>
+                <li>Brebes</li>
+                <li>Bulakamba</li>
+                <li>Bumiayu</li>
+                <li>Jatibarang</li>
+                <li>Kersana</li>
+                <li>Ketanggungan</li>
+                <li>dan lainnya</li>
+            </ol>
+        </div>
+
+        <!-- Website -->
+        <div class="card shadow mt-3" id="website">
+            <div class="card-header">
+                <h6><i class="bi bi-link-45deg"></i></i> Website</h6>
+            </div>
+            <a href="https://id.wikipedia.org/wiki/Kabupaten_Brebes" target="_blank"
+                rel="noopener noreferrer">Wikipedia</a>
+        </div>
+
+        <!-- Gambar -->
+        <div class="card shadow mt-3" id="gambar">
+            <div class="card-header">
+                <h6><i class="bi bi-image"></i></i> Gambar</h6>
+            </div>
+            <img src="image\telagaranjeng_brebes.jpg" width="450">
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tr>
+                                <td>NAMA</td>
+                                <td>:</td>
+                                <td>Aradya Putra Pamungkas</td>
+                            </tr>
+                            <tr>
+                                <td>NIM</td>
+                                <td>:</td>
+                                <td>25/568733/SV/27521</td>
+                            </tr>
+                            <tr>
+                                <td>KELAS</td>
+                                <td>:</td>
+                                <td>PG WEB A</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
