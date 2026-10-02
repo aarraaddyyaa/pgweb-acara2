@@ -12,6 +12,20 @@
         main {
             margin-top: 80px;
         }
+
+        main {
+            margin-bottom: 20px;
+        }
+
+        #deskripsi .card-header,
+        #penduduk .card-header,
+        #kecamatan .card-header,
+        #website .card-header,
+        #gambar .card-header,
+        #lokasi .card-header {
+            background-color: #d1e7dd;
+            color: #0f5132;
+        }
     </style>
 </head>
 
@@ -25,6 +39,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -128,7 +143,7 @@
         </div>
 
         <!-- Kecamatan -->
-        <div class="card shadow mt-3" id="Kecamatan">
+        <div class="card shadow mt-3" id="kecamatan">
             <div class="card-header">
                 <h6><i class="bi bi-building-fill"></i></i> Kecamatan</h6>
             </div>
@@ -154,13 +169,43 @@
                 rel="noopener noreferrer">Wikipedia</a>
         </div>
 
-        <!-- Gambar -->
-        <div class="card shadow mt-3" id="gambar">
-            <div class="card-header">
-                <h6><i class="bi bi-image"></i></i> Gambar</h6>
+        <!-- Gambar dan Lokasi -->
+<div class="card shadow mt-3 " id="gambar">
+    <div class="card-header">
+        <h6><i class="bi bi-image"></i> Gambar & Lokasi</h6>
+    </div>
+
+    <div class="card-body">
+        <div class="row g-3">
+
+            <!-- Gambar -->
+            <div class="col-md-6">
+                <h6>
+                    <i class="bi bi-image"></i> Gambar </h6>
+
+                <img src="image\telagaranjeng_brebes.jpg"
+                    class="img-fluid rounded shadow-sm"
+                    alt="Telaga Ranjeng Brebes"
+                    width="50%"
+                    height="250">
             </div>
-            <img src="image\telagaranjeng_brebes.jpg" width="450">
+
+            <!-- Lokasi -->
+            <div class="col-md-6">
+                <h6>
+                    <i class="bi bi-geo-alt-fill"></i> Lokasi
+                </h6>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481762.8870497102!2d108.60461963739112!3d-7.045087453429768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f988957df629f%3A0x3027a76e352bba0!2sBrebes%20Regency%2C%20Central%20Java!5e1!3m2!1sen!2sid!4v1790932098571!5m2!1sen!2sid"
+                    width="50%"
+                    height="210">
+                </iframe>
+            </div>
+
         </div>
+    </div>
+</div>
 
         <!-- Modal -->
         <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
